@@ -1,12 +1,10 @@
-// app/hakkimizda/page.tsx
-
 import React from "react";
 import Breadcrumb from "../components/Breadcrumb";
 import AboutContent from "../components/AboutContent"
 import MissionVision from "../components/MissionVision";
 
 export const metadata = {
-  title: "Hakkımızda | Emlak Projesi",
+  title: "Hakkımızda | Gayrimenkul Demo",
 };
 
 export default function HakkimizdaPage() {
@@ -21,7 +19,6 @@ export default function HakkimizdaPage() {
 
       <AboutContent /> 
       
-      {/* Misyon & Vizyon Bölümü */}
       <MissionVision />
 
     </main>

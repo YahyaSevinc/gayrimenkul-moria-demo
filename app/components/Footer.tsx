@@ -1,5 +1,3 @@
-// components/Footer.tsx
-
 import Link from "next/link";
 import React from "react";
 
@@ -13,7 +11,6 @@ const Footer = () => {
 
       <div className="relative z-10 w-full max-w-[1280px] mx-auto px-4 py-8 flex flex-col h-screen">
         
-        {/* ORTA KISIM (Burada değişiklik yok) */}
         <div className="flex-grow flex flex-col items-center justify-center text-center">
         <h1 className="text-4xl md:text-7xl font-medium text-white mb-6 md:mb-8">
   Harika Eviniz <br className="hidden md:block" /> Şimdiden Hazır!
@@ -30,11 +27,8 @@ const Footer = () => {
           </Link>
         </div>
 
-        {/* --- ALT KISIM (REVİZE EDİLDİ) --- */}
-        {/* justify-between yerine elemanlara flex-1 vererek hizalayacağız */}
         <div className="flex flex-col md:flex-row items-center border-t border-white/20 pt-8 gap-8 md:gap-0 mt-auto">
           
-          {/* SOL: flex-1 ve justify-start (Sola yasla ve alanı kapla) */}
           <nav className="flex gap-6 md:flex-1 md:justify-start">
             <Link href="/iletisim" className="text-white text-sm font-bold hover:text-primary transition-colors">
               <h5>İletişim</h5>
@@ -47,7 +41,6 @@ const Footer = () => {
             </Link>
           </nav>
 
-          {/* ORTA: LOGO (Ortada sabit kalır) */}
           <div className="shrink-0">
             <Link href="/">
               <h1 className="text-4xl font-medium text-primary tracking-wide">
@@ -56,7 +49,6 @@ const Footer = () => {
             </Link>
           </div>
 
-          {/* SAĞ: flex-1 ve justify-end (Sağa yasla ve alanı kapla) */}
           <div className="text-white text-sm font-bold opacity-80 md:flex-1 md:flex md:justify-end">
             <h5>Copyright © Tüm Hakları Saklıdır.</h5>
           </div>
