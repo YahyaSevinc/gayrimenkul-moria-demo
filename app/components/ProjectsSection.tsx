@@ -43,9 +43,9 @@ const ProjectsSection = () => {
         {/* --- BAŞLIK ALANI --- */}
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
           {/* Sol Üst Başlık: H3 Regular */}
-          <h3 className="text-3xl md:text-4xl font-normal text-[#2D2D2D] max-w-xl leading-tight">
-            Müşterilerimiz için Özel Dizayn Edilmiş Birbirinden Eşsiz Projelerimiz
-          </h3>
+          <h3 className="text-2xl md:text-4xl font-normal text-[#2D2D2D] max-w-xl leading-tight">
+  Müşterilerimiz için Özel Dizayn Edilmiş Birbirinden Eşsiz Projelerimiz
+</h3>
 
           {/* Sağ Üst Alt Başlık: H4 Thin */}
           <h4 className="text-xl md:text-2xl font-thin text-[#2D2D2D]">
@@ -90,9 +90,9 @@ const ProjectsSection = () => {
                 {/* Üst Satır: Yer ve Fiyat */}
                 <div className="flex flex-col md:flex-row md:items-end justify-between gap-2 border-b border-white/30 pb-4 mb-4">
                   {/* H3 Regular */}
-                  <h3 className="text-3xl font-normal whitespace-nowrap">
-                    {project.title}
-                  </h3>
+                  <h3 className="text-2xl md:text-3xl font-normal md:whitespace-nowrap">
+  {project.title}
+</h3>
                   {/* H3 Regular (Fiyat için de aynısını kullandım uyumlu olsun diye) */}
                   <h3 className="text-3xl font-normal">
                     {project.price}

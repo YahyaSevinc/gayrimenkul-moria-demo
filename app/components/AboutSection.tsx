@@ -92,7 +92,7 @@ const RevealText = ({ children }: { children: React.ReactNode }) => {
 const AboutSection = () => {
   return (
     <section className="w-full bg-white py-20"> {/* overflow-hidden kaldırdım, bazen observer'ı bozar */}
-      <div className="w-full max-w-[1280px] mx-auto px-4 flex flex-col gap-24">
+      <div className="w-full max-w-[1280px] mx-auto px-4 flex flex-col gap-12 md:gap-24">
         
         {/* BÖLÜM 1 */}
         <div className="flex flex-col md:flex-row items-center gap-10 md:gap-20">
@@ -104,7 +104,7 @@ const AboutSection = () => {
               iyi tanıyabilirsiniz.
             </RevealText>
           </div>
-          <div className="flex-1 order-1 md:order-2 w-full h-[300px] md:h-[400px] relative rounded-[3rem] overflow-hidden shadow-2xl group">
+          <div className="flex-1 order-1 md:order-2 w-full h-[250px] md:h-[400px] relative rounded-[2rem] md:rounded-[3rem] overflow-hidden shadow-2xl group">
              <img 
                src="/about-1.jpg" 
                alt="Bina Detayı" 

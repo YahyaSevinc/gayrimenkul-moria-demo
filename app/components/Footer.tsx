@@ -15,14 +15,13 @@ const Footer = () => {
         
         {/* ORTA KISIM (Burada değişiklik yok) */}
         <div className="flex-grow flex flex-col items-center justify-center text-center">
-          <h1 className="text-5xl md:text-7xl font-medium text-white mb-8">
-            Harika Eviniz <br className="hidden md:block" /> Şimdiden Hazır!
-          </h1>
+        <h1 className="text-4xl md:text-7xl font-medium text-white mb-6 md:mb-8">
+  Harika Eviniz <br className="hidden md:block" /> Şimdiden Hazır!
+</h1>
           
-          <h4 className="text-xl md:text-2xl font-medium text-[#F1FDFF] max-w-2xl mb-12 leading-relaxed">
-            Tek yapmanız gereken en kısa sürede bize ulaşmak ve istediklerinizi bize aktarmanız.
-          </h4>
-
+<h4 className="text-base md:text-2xl font-medium text-[#F1FDFF] max-w-2xl mb-8 md:mb-12 leading-relaxed px-4">
+  Tek yapmanız gereken en kısa sürede bize ulaşmak ve istediklerinizi bize aktarmanız.
+</h4>
           <Link 
             href="/iletisim" 
             className="bg-white text-[#2D2D2D] px-12 py-5 rounded-full font-medium text-lg flex items-center gap-3 hover:bg-gray-100 transition-colors shadow-2xl"
@@ -33,7 +32,7 @@ const Footer = () => {
 
         {/* --- ALT KISIM (REVİZE EDİLDİ) --- */}
         {/* justify-between yerine elemanlara flex-1 vererek hizalayacağız */}
-        <div className="flex flex-col md:flex-row items-center border-t border-white/20 pt-8 gap-6 md:gap-0 mt-auto">
+        <div className="flex flex-col md:flex-row items-center border-t border-white/20 pt-8 gap-8 md:gap-0 mt-auto">
           
           {/* SOL: flex-1 ve justify-start (Sola yasla ve alanı kapla) */}
           <nav className="flex gap-6 md:flex-1 md:justify-start">
