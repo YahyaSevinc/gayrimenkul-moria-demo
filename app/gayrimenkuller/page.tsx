@@ -124,7 +124,7 @@ export default function GayrimenkullerPage() {
           ))}
 
         </div>
-
+/*diğer filtreler*/
       </div>
     </main>
   );
